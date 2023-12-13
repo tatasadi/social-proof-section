@@ -18,7 +18,7 @@ export default function Index() {
           saying about our services.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-4 lg:col-start-3 lg:grid-cols-[3rem_3rem_1fr_3rem_3rem]">
+      <div className="grid w-full grid-cols-1 gap-4 sm:max-w-xl lg:col-start-3  lg:max-w-none lg:grid-cols-[3rem_3rem_1fr_3rem_3rem]">
         <ReviewCard text="Rated 5 Stars in Reviews" className="lg:col-span-3" />
         <ReviewCard text="Rated 5 Stars in Report Guru" className="lg:col-span-3 lg:col-start-2" />
         <ReviewCard text="Rated 5 Stars in BestTech" className="lg:col-span-3  lg:col-start-3" />
