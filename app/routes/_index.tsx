@@ -5,5 +5,9 @@ export const meta: MetaFunction = () => {
 }
 
 export default function Index() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  return (
+    <main className="px-6 py-20">
+      <h1></h1>
+    </main>
+  )
 }
