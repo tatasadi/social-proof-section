@@ -30,8 +30,8 @@ export default function App() {
         <Links />
       </head>
       <body className="relative flex min-h-screen flex-col items-center justify-center">
-        <div className="absolute left-0 top-0 h-[14.5rem] w-[23.375rem] bg-[url('/images/bg-pattern-top-mobile.svg')] bg-contain bg-no-repeat lg:h-[22.625rem] lg:w-[36.5rem] lg:bg-[url('/images/bg-pattern-top-desktop.svg')]" />
-        <div className="absolute bottom-0 right-0 h-[29rem] w-[46.750rem] bg-[url('/images/bg-pattern-bottom-desktop.svg')] bg-contain bg-no-repeat lg:h-[42.0625rem] lg:w-[67.8125rem]" />
+        <div className="absolute left-0 top-0 z-0 h-[14.5rem] w-[23.375rem] bg-[url('/images/bg-pattern-top-mobile.svg')] bg-contain bg-no-repeat lg:h-[22.625rem] lg:w-[36.5rem] lg:bg-[url('/images/bg-pattern-top-desktop.svg')]" />
+        <div className="absolute bottom-0 right-0 z-0 h-[29rem] w-[46.750rem] bg-[url('/images/bg-pattern-bottom-desktop.svg')] bg-contain bg-no-repeat lg:h-[42.0625rem] lg:w-[67.8125rem]" />
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />
