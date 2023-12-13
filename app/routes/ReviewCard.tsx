@@ -1,8 +1,10 @@
 import Star from './Star'
 
-export default function ReviewCard({ text }: { text: string }) {
+export default function ReviewCard({ text, className = '' }: { text: string; className: string }) {
   return (
-    <div className="bg-light-grayish-magenta mb-4 flex flex-col items-center justify-center gap-4 rounded-lg p-4">
+    <div
+      className={`bg-light-grayish-magenta flex flex-col items-center justify-center gap-4 rounded-lg p-4 px-16 lg:flex-row lg:px-8 ${className}`}
+    >
       <div className="flex gap-1">
         <Star />
         <Star />
